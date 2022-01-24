@@ -1,0 +1,26 @@
+.largecard-container{
+    margin-left: 750px;
+  
+}
+
+.largecard-image{
+    padding: 100px;
+    margin-top:50px;
+}
+
+
+
+
+
+.largecard-text{
+    text-align:center;
+   
+}
+
+.largecard-text-header{
+    font-size:72px;
+}
+
+.largecard-text-body{
+    font-size:16px;
+}
