@@ -1,0 +1,9 @@
+LogitechG Release v-0.03
+Changelog:
+-	Added string binding to largecard
+-	Created card_data file
+-	Created card-item-model. File
+-	Used ngFor loop to create elements from card_data file
+-	Created 4 different card items and added them to the website.
+To-be-fixed:
+-	Styling of images by string binding the css files properly.
