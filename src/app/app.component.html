@@ -2,4 +2,13 @@
 <logitech-messagebar>Loading...</logitech-messagebar>
 <logitech-navbar>Loading...</logitech-navbar>
 <logitech-carousel>Loading...</logitech-carousel>
-<logitech-largecard>Loading...</logitech-largecard>
+<div class = "container-fluid">
+    <div *ngFor="let card of cards">
+        <logitech-largecard img={{card.img}} 
+            title={{card.title}}
+            description={{card.description}}
+            background={{card.background}}
+            imagetype={{card.imagetype}}>Loading...</logitech-largecard>
+    </div>
+</div>
+

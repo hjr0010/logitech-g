@@ -1,16 +1,24 @@
 .largecard-container{
-    margin-left: 750px;
-  
+    justify-content:center;
 }
 
-.largecard-image{
+.largecard-imagesmall{
     padding: 100px;
-    margin-top:50px;
+    margin-top: 50px;
+    min-height: 400px;
+    justify-self: center;
 }
 
+.largecard-imagemedium{
+    padding: 100px;
+    margin-top: 50px;
+}
 
-
-
+.largecard-imagenone{
+    padding: 100px;
+    margin-top: 50px;
+    height: 500px;
+}
 
 .largecard-text{
     text-align:center;

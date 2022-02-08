@@ -5,4 +5,5 @@ import { Component } from "@angular/core";
     templateUrl: 'carousel.component.html'
 })
 export class CarouselComponent {
+
 }
