@@ -4,7 +4,8 @@
 
 .largecard-imagesmall{
     padding: 100px;
-    margin-top: 50px;
+    margin-top: 150px;
+    margin-left: 625px;
     min-height: 400px;
     justify-self: center;
 }
@@ -12,6 +13,7 @@
 .largecard-imagemedium{
     padding: 100px;
     margin-top: 50px;
+    
 }
 
 .largecard-imagenone{
