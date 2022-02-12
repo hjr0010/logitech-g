@@ -2,3 +2,11 @@
     outline-style:dashed;
     color: grey;
 }
+
+.linkbar-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}

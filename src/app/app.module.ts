@@ -7,6 +7,7 @@ import { LargeCardComponent } from './mainitems/largecard.component';
 import { LinkBarComponent } from './navbars/linkbar.component';
 import { MessageBarComponent } from './navbars/messagebar.component';
 import { NavBarComponent } from './navbars/navbar.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { NavBarComponent } from './navbars/navbar.component';
     LargeCardComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
