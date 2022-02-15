@@ -8,6 +8,7 @@ import { LinkBarComponent } from './navbars/linkbar.component';
 import { MessageBarComponent } from './navbars/messagebar.component';
 import { NavBarComponent } from './navbars/navbar.component';
 import { AppRoutingModule } from './app-routing.module';
+import { MainNavItems } from './navbars/mainnavitems.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { AppRoutingModule } from './app-routing.module';
     MessageBarComponent,
     NavBarComponent,
     CarouselComponent,
-    LargeCardComponent
+    LargeCardComponent,
+    MainNavItems
   ],
   imports: [
     BrowserModule,

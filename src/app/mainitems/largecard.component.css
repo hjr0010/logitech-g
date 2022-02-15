@@ -13,7 +13,8 @@
 .largecard-imagemedium{
     padding: 100px;
     margin-top: 50px;
-    
+    width: calc(100% -20px);
+    margin-right: 20px;
 }
 
 .largecard-imagenone{
