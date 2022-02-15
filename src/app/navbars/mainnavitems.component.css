@@ -1,0 +1,13 @@
+.nav-container{
+    height: 50px;
+    align-items: center;
+}
+
+.nav-component{
+    display: flex;
+    margin-left: 350px;
+}
+
+.nav-text{
+    color: #1c1c1c;
+}
