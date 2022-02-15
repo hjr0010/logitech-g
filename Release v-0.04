@@ -1,0 +1,27 @@
+LogitechG Release v-0.04
+
+
+Changelog:
+1.	Created new navbar to get between pages until I can figure out how to move these links inside the hamburger menu properly. 
+
+2.	Added routing for 6 pages:
+  •	Home
+  •	Products
+  •	Innovation
+  •	Esports
+  •	Community
+  •	Change location
+  
+3.	Created 5 components, one for each page except for home
+  •	2 carousels
+  •	2 cards
+  •	Landing page for change location
+  
+To-be-fixed:
+  Move navbar inside of hamburger menu.
+  Properly create change location menu background.
+
+Bonus features:
+There were no bonus features, but the project required 5 routes, and including the home page I have 6 now.
+
+  
