@@ -17,6 +17,8 @@ import { ChangeLocationComponent } from './Location/changelocationpage.component
 import { ProductCardComponent } from './Products/productcard.componet';
 import { ProductPageCarouselComponent } from './Products/productpagecarousel.component';
 import { FooterComponent } from './navbars/footer.component';
+import { InnovationPageLayoutComponent } from './Innovation/innovationpagelayout.component';
+import { InnovationPageCarouselComponent } from './Innovation/innovationpagecarousel.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +37,8 @@ import { FooterComponent } from './navbars/footer.component';
     ProductCardComponent,
     ProductPageCarouselComponent,
     FooterComponent,
+    InnovationPageLayoutComponent,
+    InnovationPageCarouselComponent
     
   ],
   imports: [

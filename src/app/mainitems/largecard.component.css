@@ -41,3 +41,7 @@
 .largecard-text-body{
     font-size:16px;
 }
+
+.card-img-overlay{
+    padding: 0;
+}

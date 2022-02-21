@@ -10,3 +10,13 @@
     align-items: center;
     position: relative;
 }
+
+.navcolor{
+    filter: grayscale(1);
+    color: grey;
+}
+
+.navcolor:hover{
+    filter: grayscale(0);
+    color: white;
+}

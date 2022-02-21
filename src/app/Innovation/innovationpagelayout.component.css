@@ -1,0 +1,114 @@
+.containerbanner{
+    min-height: 400px;
+    display: flex;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 100%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    text-align: center;
+}
+
+.container{
+    color: white;
+}
+
+
+.h3{
+    font-size: 38px;
+    line-height: 1;
+    letter-spacing: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 38px;
+}
+
+.largecard-container{
+    text-align: left;
+    padding: 0;
+    min-height: 500px;
+    align-self: flex-end;
+}
+
+.grid{
+    margin-right: -20px;
+    width: calc(100% + 20px);
+    flex-grow: 1;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin-top: 250px;
+}
+
+.mycont {
+    align-items: right;
+}
+
+.left{
+    margin-right: 70%;
+}
+
+.moreleft{
+    margin-right: 80%;
+}
+.right{
+    margin-left: 58.3333%;
+}
+
+.bottomright{
+    margin-left: 58.3333%;
+    margin-top: 150px;
+}
+.col-1{
+    width: auto;
+}
+
+.mini-hr{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    position: relative;
+    height: 6px;
+    overflow: hidden;
+}
+
+.mini-hr:after{
+    display: block;
+    content: "";
+    background-color: #c3c6c8;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 84px;
+    height: 100%;
+}
+
+
+
+.btncolor{
+    background-color: #00b8fc;
+    color: black;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.blacktext{
+    color: black;
+}
