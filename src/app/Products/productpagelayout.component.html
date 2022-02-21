@@ -1,0 +1,15 @@
+<logitech-productpagecarousel></logitech-productpagecarousel>
+
+<div class="container">
+    <h2 class="h3">ADVANCED GAMING GEAR</h2>
+    <p class="p">Logitech G is dedicated to advancing the performance and passion for play through <br> design and technology innovation. </p>
+</div>
+
+<div class = "container-fluid mycont">
+    <div *ngFor="let productcard of productcards">
+        <logitech-productcard img={{productcard.img}} 
+            title={{productcard.title}}
+            description={{productcard.description}}
+            textside={{productcard.textside}}
+            buttonname={{productcard.buttonname}}>Loading...</logitech-productcard>
+    </div>

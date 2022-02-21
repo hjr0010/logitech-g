@@ -9,11 +9,14 @@ import { MessageBarComponent } from './navbars/messagebar.component';
 import { NavBarComponent } from './navbars/navbar.component';
 import { AppRoutingModule } from './app-routing.module';
 import { MainNavItems } from './navbars/mainnavitems.component';
-import { ProductPageCarouselComponent } from './Products/productpagecarousel.component';
+import { ProductPageLayoutComponent } from './Products/productpagelayout.component';
 import { HomeLayoutComponent } from './home-layout.component';
 import { EsportsPageLayoutComponent } from './Esports/esportspagelayout.component';
 import { CommunityPageLayoutComponent } from './Community/communitypagelayout.component';
 import { ChangeLocationComponent } from './Location/changelocationpage.component';
+import { ProductCardComponent } from './Products/productcard.componet';
+import { ProductPageCarouselComponent } from './Products/productpagecarousel.component';
+import { FooterComponent } from './navbars/footer.component';
 
 @NgModule({
   declarations: [
@@ -24,13 +27,15 @@ import { ChangeLocationComponent } from './Location/changelocationpage.component
     CarouselComponent,
     LargeCardComponent,
     MainNavItems,
-    ProductPageCarouselComponent,
+    ProductPageLayoutComponent,
     HomeLayoutComponent,
     EsportsPageLayoutComponent,
     CommunityPageLayoutComponent,
     ChangeLocationComponent,
+    ProductCardComponent,
+    ProductPageCarouselComponent,
+    FooterComponent,
     
-
   ],
   imports: [
     BrowserModule,

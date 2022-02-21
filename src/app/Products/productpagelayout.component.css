@@ -1,0 +1,30 @@
+.container{
+    min-height: 400px;
+    display: flex;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 100%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    text-align: center;
+}
+
+.h3{
+    font-size: 38px;
+    line-height: 1;
+    letter-spacing: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 38px;
+}
+
+.container-fluid{
+    padding: 0;
+}
