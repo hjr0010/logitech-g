@@ -60,8 +60,11 @@
 }
 
 .left{
-    display: flex;
+    
     align-items: center;
+    position: absolute;
+    max-height: 100px;
+
 }
 .center{
     display: flex;

@@ -11,6 +11,7 @@ export class ProductCardComponent {
     @Input() description: string;
     @Input() textside: string;
     @Input() buttonname: string;
+    @Input() link: string;
 
     constructor() {
         this.img = "./assets/bf2042bg.webp";
@@ -18,5 +19,6 @@ export class ProductCardComponent {
         this.description = "DEFAULT DESCRIPTION";
         this.textside = "left"
         this.buttonname = "";
+        this.link = "";
     }
 }

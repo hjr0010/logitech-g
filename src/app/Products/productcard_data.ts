@@ -4,7 +4,8 @@ export const productcard_data = [
         title: "GAMING MICE",
         description: "To play at your best, you need the highest performing gaming mouse. Logitech G mice, from sensor to shape, lead the industry in design and technology.",
         textside: "left",
-        buttonname: "MICE"
+        buttonname: "MICE",
+        link: "products/gaming-mice"
     },
 
     {
@@ -12,7 +13,8 @@ export const productcard_data = [
         title: "GAMING MOUSE PADS",
         description: "Logitech G mouse pads are built from the best materials for consistency and stability. Add POWERPLAY and add infinite wireless power delivery.",
         textside: "right",
-        buttonname: "MOUSE PADS"
+        buttonname: "MOUSE PADS",
+        link: "products/gaming-mouse-pads"
     },
 
     {
@@ -20,7 +22,8 @@ export const productcard_data = [
         title: "GAMING KEYBOARDS",
         description: "Logitech G gaming keyboards are purpose-built for gaming. They’re designed for flawless execution and powerful customization.",
         textside: "left",
-        buttonname: "GAMING KEYBOARDS"
+        buttonname: "GAMING KEYBOARDS",
+        link: "products/gaming-keyboards"
     },
 
     {
@@ -28,7 +31,8 @@ export const productcard_data = [
         title: "GAMING AUDIO",
         description: "Logitech G gaming headsets and speakers are equipped with advanced audio technologies for exceptionally immersive experiences.",
         textside: "right",
-        buttonname: "AUDIO GEAR"
+        buttonname: "AUDIO GEAR",
+        link: "products/gaming-audio"
     },
 
     {
@@ -36,7 +40,8 @@ export const productcard_data = [
         title: "STREAMING GEAR",
         description: "Gaming is more fun when you share it. At Logitech G, we draw from our heritage as the de facto streamer webcam and build with our passion for the best possible game streaming experience.",
         textside: "left",
-        buttonname: "STREAMING GEAR"
+        buttonname: "STREAMING GEAR",
+        link: "products/streaming-gear"
     },
 
     {
@@ -44,7 +49,8 @@ export const productcard_data = [
         title: "DRIVING GEAR",
         description: "Logitech G Driving Force wheels are designed with premium materials and advanced tech to accurately recreate the racing experience.",
         textside: "right",
-        buttonname: "DRIVING GEAR"
+        buttonname: "DRIVING GEAR",
+        link: "products/driving"
     },
 
     {
@@ -52,7 +58,8 @@ export const productcard_data = [
         title: "SPACE GEAR",
         description: "Handle the complexity of space flight with advanced, full-featured and customizable H.O.T.A.S. gear.",
         textside: "left",
-        buttonname: "SPACE GEAR"
+        buttonname: "SPACE GEAR",
+        link: "products/space"
     },
 
     {
@@ -60,7 +67,8 @@ export const productcard_data = [
         title: "FLIGHT GEAR",
         description: "Recreate the cockpit controls of a real aircraft. Get everything you need to take flight, plus the software to customize it all.",
         textside: "right",
-        buttonname: "FLIGHT GEAR"
+        buttonname: "FLIGHT GEAR",
+        link: "products/flight"
     },
 
     {
@@ -68,7 +76,8 @@ export const productcard_data = [
         title: "FARM GEAR",
         description: "With controls custom built for running tractors, harvesters, chippers and more, your agri-adventure will be more enjoyable than ever.",
         textside: "left",
-        buttonname: "FARM GEAR"
+        buttonname: "FARM GEAR",
+        link: "products/farm"
     },
 
     {
@@ -76,7 +85,8 @@ export const productcard_data = [
         title: "GAMEPADS",
         description: "Simple, durable and precise console-style controllers for PC. Take control of games that need a d-pad, analog stick and triggers. Choose from wired and wireless options.",
         textside: "right",
-        buttonname: "GAMEPADS FOR PC"
+        buttonname: "GAMEPADS FOR PC",
+        link: "products/gamepads"
     },
 
 ];
