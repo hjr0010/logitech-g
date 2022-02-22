@@ -5,7 +5,7 @@ pages, because last week I had already done a few components for these pages.)
   Created 6 new components: 
       - Card components for product page using ng for loop (10 instances)
       - Added product page banner
-      - Card components for innovation page without ng for loop (6 instances)
+      - Card components for innovation page without ng for loop (7 instances)
       - Added innovation page banner
       - Single card component for esports page 
       - Footer for website (
