@@ -9,12 +9,5 @@ import { card_data } from './mainitems/card_data';
 })
 export class AppComponent {
   title = 'logitech-g';
-  cards: CardItemModel [] = [];
-
-  constructor() {
-    for (var card of card_data) {
-      console.log(card);
-      this.cards.push(card);
-    }
-  }
+  
 }
