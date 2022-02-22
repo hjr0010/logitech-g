@@ -1,0 +1,25 @@
+CHANGELOG v-0.05
+
+Goal 1) (I spread out the components across many pages rather than 3 for 2 components, because I didn't have much to do on these
+pages, because last week I had already done a few components for these pages.) 
+  Created 6 new components: 
+      - Card components for product page using ng for loop (10 instances)
+      - Added product page banner
+      - Card components for innovation page without ng for loop (7 instances)
+      - Added innovation page banner
+      - Single card component for esports page 
+      - Footer for website (
+      - Banner for gaming mice page (added routing to mice page)
+      - Banner for gaming mouse pads page (added routing to mouse pads page) 
+  
+Goal 2) My card component created for the product page used an ng for loop to create 10 instances with 6 different attributes
+(image, textside, title, description, link, and buttonname)
+
+To-Do: 
+  - Currently revamping and fixing navbar
+  - Create all the routes for footer
+  - Create layout components for all card butttons
+  
+Bonus features:
+  - Created new routes in all components, just need to add layouts for these pages.
+  - Routes for mice and mouse pad pages are currently working.
