@@ -22,6 +22,8 @@ import { InnovationPageCarouselComponent } from './Innovation/innovationpagecaro
 import { SliderCarouselComponent } from './mainitems/slidercarousel.component';
 import { GamingMiceLayoutComponent } from './Products/Gaming Mice/gamingmicelayout.component';
 import { GamingMousePadsLayoutComponent } from './Products/Gaming Mouse Pads/gamingmousepadslayout.component';
+import { UserInfoComponent } from './user-info/user-info.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -45,11 +47,15 @@ import { GamingMousePadsLayoutComponent } from './Products/Gaming Mouse Pads/gam
     SliderCarouselComponent,
     GamingMiceLayoutComponent,
     GamingMousePadsLayoutComponent,
-    
+    UserInfoComponent,
+  
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
+    
+
   ],
   providers: [],
   bootstrap: [AppComponent]
