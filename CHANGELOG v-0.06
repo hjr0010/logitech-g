@@ -1,0 +1,25 @@
+CHANGELOV v-0.06
+
+Goal 1)
+  - Created firebase backend server as required
+  
+Goal 2)
+  - Populated database with four pieces of information
+    -FirstName
+    -LastName
+    -MixId
+    -Github Link
+  
+Goal 3)
+  - Wrote code within app-module to allow HTTP input
+  
+Goal 4)
+  - Included user info component to the top of main page and displayed the info
+  
+To-Do:
+  - Fix overflow of main page so that images do not cause scroll bar to appear on bottom of page
+  - Add second nav dropdown for innovation page.
+  
+Bonus:
+  - Completely created navbar and items within to give website a near exact replica.
+  - Screenshots of navbar are included in submission.
