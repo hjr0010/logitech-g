@@ -13,13 +13,13 @@ import { GamingMousePadsLayoutComponent } from './Products/Gaming Mouse Pads/gam
 const routes:Routes = [
   {path: '', component: HomeLayoutComponent},
   {path: 'home', component: HomeLayoutComponent},
-  {path: 'Products', component: ProductPageLayoutComponent},
-  {path: 'Innovation', component: InnovationPageLayoutComponent},
-  {path: 'Esports', component: EsportsPageLayoutComponent},
-  {path: 'Community', component: CommunityPageLayoutComponent},
+  {path: 'products', component: ProductPageLayoutComponent},
+  {path: 'innovation', component: InnovationPageLayoutComponent},
+  {path: 'esports', component: EsportsPageLayoutComponent},
+  {path: 'community', component: CommunityPageLayoutComponent},
   {path: 'change-location', component: ChangeLocationComponent},
   {path: 'products/gaming-mice', component: GamingMiceLayoutComponent},
-  {path: 'products/gaming-mouse-pads', component: GamingMousePadsLayoutComponent},
+  {path: 'products/gaming-mousepads', component: GamingMousePadsLayoutComponent},
   
   
 ];

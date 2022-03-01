@@ -14,7 +14,7 @@ export const productcard_data = [
         description: "Logitech G mouse pads are built from the best materials for consistency and stability. Add POWERPLAY and add infinite wireless power delivery.",
         textside: "right",
         buttonname: "MOUSE PADS",
-        link: "products/gaming-mouse-pads"
+        link: "products/gaming-mousepads"
     },
 
     {

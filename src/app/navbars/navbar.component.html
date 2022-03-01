@@ -1,37 +1,195 @@
 <nav class="main-nav">
-    <div class="main-nav-inner">
-        <div class="navbar main-nav-main-bar">
-           <div class="container">
-            <div class="collapse" id="navbarToggleExternalContent">
-                <div class="bg-dark p-4">
-                  <h5 class="text-white h4">Collapsed content</h5>
-                  <span class="text-muted">Toggleable via the navbar brand.</span>
+  <div class="main-nav-inner">
+    <div class="navbar main-nav-main-bar">
+      <div class="container">
+        <div class="left">
+          <button class="hamburger" id="ham1" onclick="changeHeight(); changeOpacity()"> 
+            <span class="lines" id="lines1">
+              <span class="top-bar"></span>
+              <span class="middle-bar"></span>
+              <span class="bottom-bar"></span>
+            </span>
+          </button>
+        </div>
+
+        <div class="center">
+          <a class="nav-link" href="">
+            <img src="/assets/logitechg-logo.png" width="150px">
+          </a>
+        </div>
+
+        <div class="right">
+          <a href="" class="nav-link" style="justify-content:right;">
+            <img src="/assets/shopping-cart.svg" width="30px">
+          </a>
+          <a href="" class="nav-link" style="justify-content:right;">
+            <img src="/assets/searchicon.png" width="30px">
+          </a>
+        </div>
+
+        <div class="main-nav-categories" aria-hidden="true" style="min-height: 0px;" id="nav">
+          <div class="main-nav-header-wrapper">
+            <div class="container">
+              <ul class="main-nav-header">
+
+                <button class="hamburger2" id="ham2" onclick="changeHeightBack()">
+                  <span class="lines" id="lines2">
+                    <span class="top-bar2" id="top2"></span>
+                    <span class="middle-bar2" id="mid2"></span>
+                    <span class="bottom-bar2" id="bot2" ></span>
+                  </span>
+                </button>
+               
+                <li class="nav-category currently selected">
+                  <a href="/products" tabindex="-1" aria-haspopup="true" aria-expanded="false" class="mya">
+                    <span class="span-nav">
+                      Products
+                    </span>
+                  </a>
+                </li>
+                <li class="nav-category">
+                  <a href="/innovation" tabindex="-1" target="_self" aria-haspopup="true" aria-expanded="false" class="mya">
+                    <span class="span-nav">
+                      Innovation
+                    </span>
+                  </a>
+                  
+                </li>
+                <li class="nav-category no-sub-category">
+                  <a href="/esports" tabindex="-1" target="_self" aria-haspopup="true" aria-expanded="false" >
+                    <span class="span-nav">
+                      Esports
+                    </span>
+                  </a>
+                </li>
+                <li class="nav-category no-sub-category">
+                  <a href="/community" tabindex="-1" target="_self" aria-haspopup="true" aria-expanded="false" >
+                    <span class="span-nav">
+                      Community
+                    </span>
+                  </a>
+                </li>
+                <li class="nav-category no-sub-category">
+                  <a href="https://support.logi.com/hc/en-us" tabindex="-1" target="_blank" aria-haspopup="true" aria-expanded="false" >
+                    <span class="span-nav">
+                      Support
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="main-nav-content dropdown-content">
+            <div class="blade blade-0 selected" data-num-items="12" aria-hidden="false" style="max-height: 759px;">
+              <div class="container">
+                <div class="row row-cols-4">
+                  <div class="col">
+                    <ul>
+                      <li class="category-item">
+                        <a href="/products/gaming-mice" class="text">
+                            <img class="img" src="./assets/gaming-mice.jpg">
+                            GAMING MICE
+                        </a>
+                      </li>
+
+                      <li class="category-item">
+                        <a href="/products/streaming-gear" class="text">
+                            <img class="img" src="./assets/streaming-gear.jpg">
+                            STREAMING GEAR
+                        </a>
+                      </li>
+
+                      <li class="category-item">
+                        <a href="/products/farm" class="text">
+                            <img class="img" src="./assets/farm.jpg">
+                            FARM
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="col">
+                    <ul>
+                      <li class="category-item">
+                        <a href="/products/gaming-mousepads" class="text">
+                            <img class="img" src="./assets/gaming-mousepads.jpg">
+                            GAMING MOUSE PADS
+                        </a>
+                      </li>
+
+                      <li class="category-item">
+                        <a href="/products/driving" class="text">
+                            <img class="img" src="./assets/driving.jpg">
+                            DRIVING
+                        </a>
+                      </li>
+
+                      <li class="category-item">
+                        <a href="/products/gamepads" class="text">
+                            <img class="img" src="./assets/gamepads.jpg">
+                            GAMEPADS
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="col">
+                    <ul>
+                      <li class="category-item">
+                        <a href="/products/gaming-keyboards" class="text">
+                            <img class="img" src="./assets/gaming-keyboards.jpg">
+                            GAMING KEYBOARDS
+                        </a>
+                      </li>
+
+                      <li class="category-item">
+                        <a href="/products/space" class="text">
+                            <img class="img" src="./assets/space.jpg">
+                            SPACE
+                        </a>
+                      </li>
+
+                      <li class="category-item">
+                        <a href="/products/apparel" class="text">
+                            <img class="img" src="./assets/apparel.png">
+                            APPAREL & GEAR
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="col">
+                    <ul>
+                      <li class="category-item">
+                        <a href="/products/gaming-audio" class="text">
+                            <img class="img" src="./assets/gaming-audio.jpg">
+                            GAMING AUDIO
+                        </a>
+                      </li>
+
+                      <li class="category-item">
+                        <a href="/products/flight" class="text">
+                            <img class="img" src="./assets/flight.jpg">
+                            FLIGHT
+                        </a>
+                      </li>
+
+                      <li class="category-item">
+                        <a href="/products/gaming-furniture" class="text">
+                            <img class="img" src="./assets/gaming-furniture.png">
+                            GAMING FURNITURE
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+
                 </div>
               </div>
-              <nav class="navbar navbar-dark bg-dark">
-                <div class="container-fluid">
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                </div>
-              </nav>
-          
-            <div class="center">
-                <a class="nav-link" href="">
-                    <img src="/assets/logitechg-logo.png" width="150px">
-                </a>
             </div>
-    
-            <div class="right">
-                <a href="https://www.logitechg.com/en-us" class="nav-link" style="justify-content:right;">
-                    <img src="/assets/shopping-cart.svg" width="30px">
-                </a>
-                <a href="" class="nav-link" style="justify-content:right;">
-                    <img src="/assets/PinClipart.com_padlock-clipart_1955423.png" width="30px">
-                </a>
-            </div>
-           
+          </div>
         </div>
-        </div>
-    </div>   
+      </div>
+    </div>
+  </div>
 </nav>
