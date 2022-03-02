@@ -1,0 +1,25 @@
+.carousel-img{
+    width: 1920px;
+}
+
+.carousel-inner{
+    max-height: 853px;   
+}
+
+
+.carousel-indicators button {
+    height: 10px !important;
+    width: 10px !important;
+    margin: 0px 5px !important;
+    border-radius: 100%;
+    background-color: #c3c6c8 !important;
+}
+
+.carousel-indicators .active{
+    height: 10px !important;
+    width: 10px !important;
+    margin: 8px 5px !important;
+    border-radius: 100%;
+    background-color: transparent !important;
+    border: 2px solid white;
+}

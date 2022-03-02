@@ -3,7 +3,7 @@
     <div class="navbar main-nav-main-bar">
       <div class="container">
         <div class="left">
-          <button class="hamburger" id="ham1" onclick="changeHeight(); changeOpacity()"> 
+          <button class="hamburger" id="ham1" onclick="changeHeight()"> 
             <span class="lines" id="lines1">
               <span class="top-bar"></span>
               <span class="middle-bar"></span>
@@ -40,14 +40,14 @@
                   </span>
                 </button>
                
-                <li class="nav-category currently selected" onmouseover="displayProducts()" onmouseleave="hideProducts()" >
+                <li class="nav-category currently selected" onmouseover="displayProducts(); changeHeight()">
                   <a href="/products" tabindex="-1" aria-haspopup="true" aria-expanded="false" class="mya">
                     <span class="span-nav">
                       Products
                     </span>
                   </a>
                 </li>
-                <li class="nav-category" onmouseover="displayInnovation()" onmouseleave="hideInnovation()">
+                <li class="nav-category" onmouseover="displayInnovation(); changeHeight()" >
                   <a href="/innovation" tabindex="-1" target="_self" aria-haspopup="true" aria-expanded="false" class="mya">
                     <span class="span-nav">
                       Innovation
@@ -55,21 +55,21 @@
                   </a>
                   
                 </li>
-                <li class="nav-category no-sub-category">
+                <li class="nav-category no-sub-category" onmouseover="displayEsports(); changeHeightMed()" >
                   <a href="/esports" tabindex="-1" target="_self" aria-haspopup="true" aria-expanded="false" >
                     <span class="span-nav">
                       Esports
                     </span>
                   </a>
                 </li>
-                <li class="nav-category no-sub-category">
+                <li class="nav-category no-sub-category" onmouseover="displayCommunity(); changeHeightMed()">
                   <a href="/community" tabindex="-1" target="_self" aria-haspopup="true" aria-expanded="false" >
                     <span class="span-nav">
                       Community
                     </span>
                   </a>
                 </li>
-                <li class="nav-category no-sub-category">
+                <li class="nav-category no-sub-category" onmouseover="displaySupport(); changeHeightMed()">
                   <a href="https://support.logi.com/hc/en-us" tabindex="-1" target="_blank" aria-haspopup="true" aria-expanded="false" >
                     <span class="span-nav">
                       Support
@@ -195,24 +195,36 @@
                 <div class="col">
                   <ul>
                     <li class="category-item">
-                      <a href="/innovation/lightspeed" class="text">
-                          <img class="img" src="./assets/innovation-lightspeed.jpg">
-                          LIGHTSPEED
+                      <a href="/innovation/lightspeed" class>
+                        <span class="img-ctn">
+                          <span class="innovationimg" style="background-image: url(./assets/innovation-lightspeed.jpg)"></span>
+                        </span>
                       </a>
+                      <span class="title">
+                        LIGHTSPEED
+                      </span>
                     </li>
 
                     <li class="category-item">
                       <a href="/innovation/advanced-gaming-audio" class="text">
-                          <img class="img" src="./assets/innovation-audio.jpg">
-                           ADVANCED GAMING AUDIO
+                          <span class="img-ctn">
+                            <span class="innovationimg" style="background-image: url(./assets/innovation-audio.jpg)"></span>
+                          </span>
                       </a>
+                      <span class="title">
+                        ADVANCED GAMING AUDIO
+                      </span>
                     </li>
 
                     <li class="category-item">
                       <a href="/innovation/by-game-titles" class="text">
-                          <img class="img" src="./assets/innovation-partnerships.jpg">
-                          GAME PARTNERSHIP
+                        <span class="img-ctn">
+                          <span class="innovationimg" style="background-image: url(./assets/innovation-partnerships.jpg)"></span>
+                        </span>
                       </a>
+                      <span class="title">
+                        GAME PARTNERSHIPS
+                      </span>
                     </li>
                   </ul>
                 </div>
@@ -221,23 +233,35 @@
                   <ul>
                     <li class="category-item">
                       <a href="/innovation/HERO" class="text">
-                          <img class="img" src="./assets/innovation-hero.jpg">
-                          HERO
+                        <span class="img-ctn">
+                          <span class="innovationimg" style="background-image: url(./assets/innovation-hero.jpg)"></span>
+                        </span>
                       </a>
+                      <span class="title">
+                        HERO
+                      </span>
                     </li>
 
                     <li class="category-item">
                       <a href="/innovation/mechanical-switches" class="text">
-                          <img class="img" src="./assets/innovation-switches.jpg">
-                          MECHANICAL SWITCHES
+                        <span class="img-ctn">
+                          <span class="innovationimg" style="background-image: url(./assets/innovation-switches.jpg)"></span>
+                        </span>
                       </a>
+                      <span class="title">
+                        MECHANICAL SWITCHES
+                      </span>
                     </li>
 
                     <li class="category-item">
                       <a href="/innovation/trueforce" class="text">
-                          <img class="img" src="./assets/innovation-trueforce.jpg">
-                          TRUEFORCE
+                        <span class="img-ctn">
+                          <span class="innovationimg" style="background-image: url(./assets/innovation-trueforce.jpg)"></span>
+                        </span>
                       </a>
+                      <span class="title">
+                        TRUEFORCE
+                      </span>
                     </li>
                   </ul>
                 </div>
@@ -246,23 +270,35 @@
                   <ul>
                     <li class="category-item">
                       <a href="/innovation/lightsync" class="text">
-                          <img class="img" src="./assets/innovation-lightsync.jpg">
-                          LIGHTSYNC
+                        <span class="img-ctn">
+                          <span class="innovationimg" style="background-image: url(./assets/innovation-lightsync.jpg)"></span>
+                        </span>
                       </a>
+                      <span class="title">
+                        LIGHTSYNC
+                      </span>
                     </li>
 
                     <li class="category-item">
                       <a href="/innovation/g-hub" class="text">
-                          <img class="img" src="./assets/innovation-ghub.jpg">
-                          G HUB
+                        <span class="img-ctn">
+                          <span class="innovationimg" style="background-image: url(./assets/innovation-ghub.jpg)"></span>
+                        </span>
                       </a>
+                      <span class="title">
+                        G HUB
+                      </span>
                     </li>
 
                     <li class="category-item">
                       <a href="/innovation/powerplay" class="text">
-                          <img class="img" src="./assets/innovation-powerplay.jpg">
-                          POWERPLAY
+                        <span class="img-ctn">
+                          <span class="innovationimg" style="background-image: url(./assets/innovation-powerplay.jpg)"></span>
+                        </span>
                       </a>
+                      <span class="title">
+                        POWERPLAY
+                      </span>
                     </li>
                   </ul>
                 </div>
@@ -271,19 +307,25 @@
                   <ul>
                     <li class="category-item">
                       <a href="/innovation/blue-voice" class="text">
-                          <img class="img" src="./assets/innovation-bluevoice.png">
-                          BLUE VO!CE
+                        <span class="img-ctn">
+                          <span class="innovationimg" style="background-image: url(./assets/innovation-bluevoice.png)"></span>
+                        </span>
                       </a>
+                      <span class="title">
+                        BLUE VO!CE
+                       </span>
                     </li>
 
                     <li class="category-item">
                       <a href="/innovation/developer-lab" class="text">
-                          <img class="img" src="./assets/innovation-developerlab.jpg">
-                          LOGITECH G DEVELOPER LAB
+                        <span class="img-ctn">
+                          <span class="innovationimg" style="background-image: url(./assets/innovation-developerlab.jpg)"></span>
+                        </span>
                       </a>
+                      <span class="title">
+                        LOGITECH G DEVELOPER LAB
+                      </span>
                     </li>
-
-                   
                   </ul>
                 </div>
 

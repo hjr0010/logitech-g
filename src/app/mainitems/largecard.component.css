@@ -13,6 +13,10 @@
     justify-self: center;
 }
 
+.card{
+    background-size: cover;
+}
+
 .largecard-imagemedium{
     padding-top: 100px;
     margin-top: 50px;

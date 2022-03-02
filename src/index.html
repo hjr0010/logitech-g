@@ -26,23 +26,37 @@
       document.getElementById("lines2").style.opacity = "0";
     }
 
+    function changeHeightMed() {
+      document.getElementById("nav").style.minHeight = "126px";
+    }
     function displayProducts() {
       document.getElementById("ProductBlade").style.height = "759px";
-    }
-
-    function hideProducts() {
-      document.getElementById("ProductBlade").style.height = "0px";
+      document.getElementById("InnovationBlade").style.height = "0px";
     }
 
     function displayInnovation() {
       document.getElementById("InnovationBlade").style.height = "759px";
- 
+      document.getElementById("ProductBlade").style.height = "0px";
     }
 
-    function hideInnovation() {
+    function displayEsports() {
       document.getElementById("InnovationBlade").style.height = "0px";
+      document.getElementById("ProductBlade").style.height = "0px";
     }
 
+    function displayCommunity() {
+      document.getElementById("InnovationBlade").style.height = "0px";
+      document.getElementById("ProductBlade").style.height = "0px";
+    }
+
+    function displaySupport() {
+      document.getElementById("InnovationBlade").style.height = "0px";
+      document.getElementById("ProductBlade").style.height = "0px";
+    }
+
+    
+
+   
   </script>
   </app-root>
 </body>
