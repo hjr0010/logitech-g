@@ -40,14 +40,14 @@
                   </span>
                 </button>
                
-                <li class="nav-category currently selected">
+                <li class="nav-category currently selected" onmouseover="displayProducts()" onmouseleave="hideProducts()" >
                   <a href="/products" tabindex="-1" aria-haspopup="true" aria-expanded="false" class="mya">
                     <span class="span-nav">
                       Products
                     </span>
                   </a>
                 </li>
-                <li class="nav-category">
+                <li class="nav-category" onmouseover="displayInnovation()" onmouseleave="hideInnovation()">
                   <a href="/innovation" tabindex="-1" target="_self" aria-haspopup="true" aria-expanded="false" class="mya">
                     <span class="span-nav">
                       Innovation
@@ -81,7 +81,7 @@
           </div>
 
           <div class="main-nav-content dropdown-content">
-            <div class="blade blade-0 selected" data-num-items="12" aria-hidden="false" style="max-height: 759px;">
+            <div class="blade blade-0 selected" id="ProductBlade" data-num-items="12" aria-hidden="false" style="height: 759px;">
               <div class="container">
                 <div class="row row-cols-4">
                   <div class="col">
@@ -188,6 +188,109 @@
               </div>
             </div>
           </div>
+
+          <div class="blade blade-0 selected" id="InnovationBlade" data-num-items="12" aria-hidden="false" style="height: 0px;">
+            <div class="container">
+              <div class="row row-cols-4">
+                <div class="col">
+                  <ul>
+                    <li class="category-item">
+                      <a href="/innovation/lightspeed" class="text">
+                          <img class="img" src="./assets/innovation-lightspeed.jpg">
+                          LIGHTSPEED
+                      </a>
+                    </li>
+
+                    <li class="category-item">
+                      <a href="/innovation/advanced-gaming-audio" class="text">
+                          <img class="img" src="./assets/innovation-audio.jpg">
+                           ADVANCED GAMING AUDIO
+                      </a>
+                    </li>
+
+                    <li class="category-item">
+                      <a href="/innovation/by-game-titles" class="text">
+                          <img class="img" src="./assets/innovation-partnerships.jpg">
+                          GAME PARTNERSHIP
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="col">
+                  <ul>
+                    <li class="category-item">
+                      <a href="/innovation/HERO" class="text">
+                          <img class="img" src="./assets/innovation-hero.jpg">
+                          HERO
+                      </a>
+                    </li>
+
+                    <li class="category-item">
+                      <a href="/innovation/mechanical-switches" class="text">
+                          <img class="img" src="./assets/innovation-switches.jpg">
+                          MECHANICAL SWITCHES
+                      </a>
+                    </li>
+
+                    <li class="category-item">
+                      <a href="/innovation/trueforce" class="text">
+                          <img class="img" src="./assets/innovation-trueforce.jpg">
+                          TRUEFORCE
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="col">
+                  <ul>
+                    <li class="category-item">
+                      <a href="/innovation/lightsync" class="text">
+                          <img class="img" src="./assets/innovation-lightsync.jpg">
+                          LIGHTSYNC
+                      </a>
+                    </li>
+
+                    <li class="category-item">
+                      <a href="/innovation/g-hub" class="text">
+                          <img class="img" src="./assets/innovation-ghub.jpg">
+                          G HUB
+                      </a>
+                    </li>
+
+                    <li class="category-item">
+                      <a href="/innovation/powerplay" class="text">
+                          <img class="img" src="./assets/innovation-powerplay.jpg">
+                          POWERPLAY
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="col">
+                  <ul>
+                    <li class="category-item">
+                      <a href="/innovation/blue-voice" class="text">
+                          <img class="img" src="./assets/innovation-bluevoice.png">
+                          BLUE VO!CE
+                      </a>
+                    </li>
+
+                    <li class="category-item">
+                      <a href="/innovation/developer-lab" class="text">
+                          <img class="img" src="./assets/innovation-developerlab.jpg">
+                          LOGITECH G DEVELOPER LAB
+                      </a>
+                    </li>
+
+                   
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>

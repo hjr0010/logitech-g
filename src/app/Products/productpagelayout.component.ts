@@ -1,19 +1,26 @@
-import { Component } from "@angular/core";
-import { productcard_data } from "./productcard_data";
+import { Component, OnInit } from "@angular/core";
+import { ProductCardService } from "./productcard.service";
 import { ProductCardItemModel } from "./productcard_item.model";
 
 @Component({
-    selector: 'logitech-productpagelayout',
-    templateUrl: 'productpagelayout.component.html',
-    styleUrls: ['productpagelayout.component.css'],
+  selector: 'logitech-productpagelayout',
+  templateUrl: 'productpagelayout.component.html',
+  styleUrls: ['productpagelayout.component.css'],
 })
-export class ProductPageLayoutComponent {
-    productcards: ProductCardItemModel[] = [];
+export class ProductPageLayoutComponent implements OnInit {
+  productcards: ProductCardItemModel[] = [];
 
-    constructor() {
-      for (var productcard of productcard_data) {
-        console.log(productcard);
-        this.productcards.push(productcard);
+  constructor(private productsService: ProductCardService) {
+    
+  }
+  
+  ngOnInit(): void {
+    this.productsService.getProductCards().subscribe(data => {
+      console.log("Fetching product data");
+      for (var product of data) {
+        console.log(product);
+        this.productcards.push(product);
       }
-    }
+    })
+  }
 }
