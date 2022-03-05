@@ -11,6 +11,7 @@ export class LargeCardComponent {
     @Input() title: string;
     @Input() description: string;
     @Input() imagetype: string;
+    @Input() backgroundtype: string;
 
     constructor() {
         this.img = "./assets/logo-logitech-overlay.svg";
@@ -18,5 +19,6 @@ export class LargeCardComponent {
         this.title = "DEFAULT TITLE";
         this.description = "DEFAULT DESCRIPTION";
         this.imagetype = "largecard-image";
+        this.backgroundtype = "";
     }
 }
