@@ -6,6 +6,9 @@ export class CardItemModel {
     background: string;
     backgroundtype: string;
     imagetype: string;
+    buttontext: string;
+    hr: string;
+    link: string;
 
     constructor(
         img: string,
@@ -13,7 +16,10 @@ export class CardItemModel {
         description: string,
         background: string,
         backgroundtype: string,
-        imagetype: string) 
+        imagetype: string,
+        buttontext: string,
+        hr: string,
+        link: string) 
         {
             this.img = img;
             this.title = title;
@@ -21,5 +27,9 @@ export class CardItemModel {
             this.background = background;
             this.backgroundtype = backgroundtype;
             this.imagetype = imagetype;
+            this.buttontext = buttontext;
+            this.hr = hr;
+            this.link = link;
         }
+
 }

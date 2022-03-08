@@ -5,7 +5,10 @@ export const card_data = [
         description: "THE WORLDS BEST SELLING GAMING GEAR POWERED BY LIGHTSPEED®",
         background: "./assets/herobg.webp",
         backgroundtype: "big",
-        imagetype: "largecard-imagemedium"
+        imagetype: "largecard-imagemedium",
+        buttontext: "SHOP LIGHTSPEED GEAR",
+        hr: "no",
+        link: "/lightspeedwirelesscollection"
     },
     {
         img: "./assets/pro-series-logo.webp",
@@ -13,7 +16,10 @@ export const card_data = [
         description: "Design with and for the world's leading esports professionals.",
         background: "./assets/gproheadsetbg.webp",
         backgroundtype: "small",
-        imagetype: "largecard-imagesmall"
+        imagetype: "largecard-imagesmall",
+        buttontext: "shop pro gear",
+        hr: "yes",
+        link: "/products/pro"
     },
     {
         img: "./assets/Gesportslogo.webp",
@@ -21,14 +27,20 @@ export const card_data = [
         description: "Logitech G proudly sponsor hundreds of esports professionals to advance gaming through collaboration.",
         background: "./assets/esportsbg.webp",
         backgroundtype: "small",
-        imagetype: "largecard-imagesmall"
+        imagetype: "largecard-imagesmall",
+        buttontext: "more on esports",
+        hr: "yes",
+        link: "/esports"
     },
     {
         img: "",
-        title: "LATEST GAMES. LATEST TECH",
+        title: "LATEST GAMES. LATEST TECH.",
         description: "Logitech G actively partners with game creators to achieve amazingly immersive gaming experiences.",
         background: "./assets/bf2042bg.webp",
         backgroundtype: "",
-        imagetype: "largecard-imagenone"
+        imagetype: "largecard-imagenone",
+        buttontext: "MORE ON GAMES",
+        hr: "no",
+        link: "/innovation/by-game-titles"
     }
 ];

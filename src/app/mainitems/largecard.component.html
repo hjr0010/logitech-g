@@ -1,14 +1,18 @@
 <div class="card bg-dark text-white {{backgroundtype}}" style="background-image: url({{background}})">
     <div class="largecard-container">
         <div class="container-fluid">
-            <img src={{img}} class="{{imagetype}}">
+            <div class="{{imagetype}}-container">
+                <img src={{img}} class="{{imagetype}}">
             </div>
+        </div>
         <div class="card-img-overlay">
-            <div class="container">
-                <h1 class="card-title largecard-text {{imagetype}}-texttitle">{{title}}</h1>
-                <div class="{{imagetype}}-container">
-                    <p class="card-text largecard-text {{imagetype}}-textdescription">{{description}}</p>
-                </div>
+            <div class="{{imagetype}}-textcontainer">
+                <h1 class="card-title {{imagetype}}-texttitle">{{title}}</h1>
+                    <div class="{{imagetype}}-desccontainer">
+                        <div class="mini-hr{{hr}}"></div>
+                        <p class="card-text {{imagetype}}-textdescription">{{description}}</p>
+                        <a href="{{link}}" type="button" class="btn btncolor btn-lg">{{buttontext}}</a>
+                    </div>
             </div>
         </div>
     </div>
