@@ -5,6 +5,20 @@
     align-self: flex-end;
 }
 
+.card{
+    background-color: black;
+}
+
+.backgroundimage{
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    
+    width: 1900px;
+    height: 770px;
+}
+
 .grid{
     margin-right: -20px;
     width: calc(100% + 20px);

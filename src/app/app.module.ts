@@ -19,7 +19,6 @@ import { ProductPageCarouselComponent } from './Products/productpagecarousel.com
 import { FooterComponent } from './navbars/footer.component';
 import { InnovationPageLayoutComponent } from './Innovation/innovationpagelayout.component';
 import { InnovationPageCarouselComponent } from './Innovation/innovationpagecarousel.component';
-import { SliderCarouselComponent } from './mainitems/slidercarousel.component';
 import { GamingMiceLayoutComponent } from './Products/Gaming Mice/gamingmicelayout.component';
 import { GamingMousePadsLayoutComponent } from './Products/Gaming Mouse Pads/gamingmousepadslayout.component';
 import { UserInfoComponent } from './user-info/user-info.component';
@@ -44,7 +43,6 @@ import { HttpClientModule } from '@angular/common/http';
     FooterComponent,
     InnovationPageLayoutComponent,
     InnovationPageCarouselComponent,
-    SliderCarouselComponent,
     GamingMiceLayoutComponent,
     GamingMousePadsLayoutComponent,
     UserInfoComponent,

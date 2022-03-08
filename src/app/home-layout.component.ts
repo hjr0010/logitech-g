@@ -1,6 +1,6 @@
-import { Component } from "@angular/core";
+import { Component, OnInit } from "@angular/core";
 import { CardItemModel } from "./mainitems/card-item.model";
-import { card_data } from "./mainitems/card_data";
+import { CardService } from "./mainitems/card.service";
 
 @Component({
     selector: 'lgtch-home-component',
@@ -8,13 +8,20 @@ import { card_data } from "./mainitems/card_data";
     styleUrls: ['home-layout.component.css']
 })
 
-export class HomeLayoutComponent{
-    cards: CardItemModel [] = [];
+export class HomeLayoutComponent implements OnInit {
+  cards: CardItemModel[] = [];
 
-    constructor() {
-      for (var card of card_data) {
+  constructor(private cardService: CardService) {
+    
+  }
+  
+  ngOnInit(): void {
+    this.cardService.getCards().subscribe(data => {
+      console.log("Fetching product data");
+      for (var card of data) {
         console.log(card);
         this.cards.push(card);
       }
-    }
+    })
+  }
 }
