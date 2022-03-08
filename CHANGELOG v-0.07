@@ -1,0 +1,19 @@
+CHANGELOG v-0.07
+
+Goal 1)
+  - Successfully copied data from mock list into the firebase.
+  
+Goal 2)
+  - Created productcard.service.ts to communicate with backend
+  
+Goal 3)
+  - Defined code in file "productpagelayout.component.ts" to subscribe to data and dispaly components with ngOnInit function on products page
+  
+To-Do:
+  - Create routing for all items inside navbar 
+  
+Bonus:
+  - Reformatted cards on homepage to match real website, screenshots included in submission. (previous cards were unformatted with text on bottom of page)
+  - Also moved data from homepage cards in file "card_data.ts to firebase.
+  - Implemented card.service.ts to communicate with backend
+  - Defined code in file "home-layout.component.ts" to subscribe to data and display components with ngOnInit function on homepage
