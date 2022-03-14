@@ -1,45 +1,13 @@
-.containerbanner{
-    min-height: 400px;
-    display: flex;
-    align-items: stretch;
-    flex-wrap: nowrap;
-    flex-grow: 1;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 40px;
-    padding-right: 40px;
-    width: 100%;
-    max-width: 1280px;
-    margin-left: auto;
-    margin-right: auto;
-    color: black;
-    text-align: center;
-}
-
-.card-img-overlay{
-    left: 70px;
-}
-
 .container{
     color: white;
 }
 
-
-.h3{
-    font-size: 38px;
-    line-height: 1;
-    letter-spacing: 0;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin-bottom: 38px;
-}
-
 .largecard-container{
-    text-align: left;
+    text-align: center;
     padding: 0;
     min-height: 500px;
-    align-self: flex-end;
-    margin-left: 215px;
+    align-self: center;
+
 }
 
 .grid{
@@ -50,30 +18,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
-    margin-top: 150px;
-}
-
-.mycont {
-    align-items: right;
-}
-
-.left{
-    margin-right: 72%;
-}
-
-.moreleft{
-    margin-right: 80%;
-}
-.right{
-    margin-left: 58.3333%;
-}
-
-.bottomright{
-    margin-left: 58.3333%;
-    margin-top: 150px;
-}
-.col-1{
-    width: auto;
+    margin-top: 350px;
 }
 
 .mini-hr{
@@ -120,18 +65,16 @@
 
 .backgroundpic{
     min-width: 1650px;
-    min-height: 507px;
+    min-height: 860px;
     background-size: cover;
+    background-position-y: 5 0%;
 }
 
-.largecard-text-header{
-    font-weight: 700;
+h2{
     font-size: 48px;
     line-height: 1;
+    font-weight: 100!important;
+    letter-spacing: 15px!important;
+    font-family: inherit;
 }
 
-.largecard-text-body{
-    font-size: 16px;
-    line-height: 1.375;
-    font-weight: 100;
-}

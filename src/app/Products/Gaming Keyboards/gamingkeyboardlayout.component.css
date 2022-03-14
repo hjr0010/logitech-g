@@ -122,6 +122,7 @@
     min-width: 1650px;
     min-height: 507px;
     background-size: cover;
+    background-position-y: 40%;
 }
 
 .largecard-text-header{

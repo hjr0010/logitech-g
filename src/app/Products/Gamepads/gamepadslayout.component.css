@@ -58,7 +58,11 @@
 }
 
 .left{
-    margin-right: 72%;
+    margin-right: 70%;
+}
+
+p{
+    width: 400px;
 }
 
 .moreleft{
@@ -122,6 +126,7 @@
     min-width: 1650px;
     min-height: 507px;
     background-size: cover;
+    background-position-y: 40%;
 }
 
 .largecard-text-header{

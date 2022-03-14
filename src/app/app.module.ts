@@ -23,6 +23,16 @@ import { GamingMiceLayoutComponent } from './Products/Gaming Mice/gamingmicelayo
 import { GamingMousePadsLayoutComponent } from './Products/Gaming Mouse Pads/gamingmousepadslayout.component';
 import { UserInfoComponent } from './user-info/user-info.component';
 import { HttpClientModule } from '@angular/common/http';
+import { GamingKeyboardLayoutComponent } from './Products/Gaming Keyboards/gamingkeyboardlayout.component';
+import { GamingAudioLayoutComponent } from './Products/Gaming Audio/gamingaudiolayout.component';
+import { StreamingGearLayoutComponent } from './Products/Streaming Gear/streaminggearlayout.component';
+import { DrivingLayoutComponent } from './Products/Driving/drivinglayout.component';
+import { SpaceLayoutComponent } from './Products/Space/spacelayout.component';
+import { FlightLayoutComponent } from './Products/Flight/flightlayout.component';
+import { FarmLayoutComponent } from './Products/Farm/farmlayout.component';
+import { GamepadsLayoutComponent } from './Products/Gamepads/gamepadslayout.component';
+import { ApparelLayoutComponent } from './Products/Apparel/apparellayout.component';
+import { FurnitureLayoutComponent } from './Products/Furniture/furniturelayout.component';
 
 @NgModule({
   declarations: [
@@ -45,6 +55,16 @@ import { HttpClientModule } from '@angular/common/http';
     InnovationPageCarouselComponent,
     GamingMiceLayoutComponent,
     GamingMousePadsLayoutComponent,
+    GamingKeyboardLayoutComponent,
+    GamingAudioLayoutComponent,
+    StreamingGearLayoutComponent,
+    DrivingLayoutComponent,
+    SpaceLayoutComponent,
+    FlightLayoutComponent,
+    FarmLayoutComponent,
+    GamepadsLayoutComponent,
+    ApparelLayoutComponent,
+    FurnitureLayoutComponent,
     UserInfoComponent,
   
   ],

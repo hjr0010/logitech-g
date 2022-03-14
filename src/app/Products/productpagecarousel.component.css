@@ -1,0 +1,81 @@
+.carousel-caption{
+    position: absolute;
+    font-family: Brown-Pro, Arial, sans-serif;
+    left: 22%;
+    max-width: 300px;
+    text-align: left;
+    top: 27%;
+}
+
+h5{
+    font-size: 18px;
+    line-height: 1.22222;
+    letter-spacing: 0;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1;
+    letter-spacing: 0;
+}
+
+p{
+    font-weight: 300;
+    letter-spacing: 0;
+    font-size: 16px;
+    line-height: 1.375;
+}
+
+.carousel-indicators button {
+    height: 10px !important;
+    width: 10px !important;
+    margin: 0px 5px !important;
+    border-radius: 100%;
+    background-color: #c3c6c8 !important;
+}
+
+.carousel-indicators .active{
+    height: 10px !important;
+    width: 10px !important;
+    margin: 8px 5px !important;
+    border-radius: 100%;
+    background-color: transparent !important;
+    border: 2px solid white;
+}
+
+.mini-hr{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    position: relative;
+    height: 6px;
+    overflow: hidden;
+}
+
+.mini-hr:after{
+    display: block;
+    content: "";
+    background-color: #c3c6c8;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 84px;
+    height: 100%;
+}
+
+.btncolor{
+    background-color: #00b8fc;
+    color: black;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}

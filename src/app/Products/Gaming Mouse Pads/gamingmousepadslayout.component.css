@@ -16,6 +16,10 @@
     text-align: center;
 }
 
+.card-img-overlay{
+    left: 70px;
+}
+
 .container{
     color: white;
 }
@@ -117,6 +121,7 @@
 .backgroundpic{
     min-width: 1650px;
     min-height: 507px;
+    background-size: cover;
 }
 
 .largecard-text-header{
