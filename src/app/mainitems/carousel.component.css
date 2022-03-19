@@ -23,3 +23,153 @@
     background-color: transparent !important;
     border: 2px solid white;
 }
+
+.btncolor{
+    background-color: #00b8fc;
+    color: black;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.body{
+    position: relative;
+    margin-right: auto;
+    margin-left: auto; 
+    top: -10px;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+
+    max-width: 400px;
+}
+
+.body2{
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: .5rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+    max-width: 525px;
+}
+
+.body3{
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: .5rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+    max-width: 800px;
+}
+
+.left{
+    position: relative;
+    left: 150px;
+    padding-top: .5rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: left;
+    max-width: 800px;
+}
+
+.subtitle{
+    width: 75%;
+    margin-bottom: 10px;
+}
+
+.h6{
+    font-size: 18px;
+    line-height: 1.22222;
+    letter-spacing: 0;
+    font-weight: 400;
+}
+
+.pos1{
+    top: 350px;
+}
+
+.pos2{
+    top: 420px;
+}
+
+.pos3{
+    top: 350px;
+    
+}
+
+.h5{
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: 0;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.h4{
+    font-size: 30px;
+    line-height: 1.06667;
+    letter-spacing: 0;
+    font-weight: 700;
+
+}
+
+.h4black{
+    font-size: 30px;
+    line-height: 1.06667;
+    letter-spacing: 0;
+    font-weight: 700;
+    color: #2f3132;
+}
+
+.pblack{
+    color: #2f3132;
+}
+
+.h1{
+    font-size: 72px;
+    line-height: 1;
+    letter-spacing: -.01em;
+    font-weight: 700;
+}
+
+.h2{
+    font-size: 48px;
+    line-height: 1;
+    letter-spacing: 0;
+    font-weight: 700;
+}
+
+.mini-hr{
+    margin-top: 25px;
+    margin-bottom: 30px;
+    position: relative;
+    height: 6px;
+    overflow: hidden;
+}
+
+.mini-hr:after{
+    left: 0;
+    transform: scale(1);
+    transition: left 0.25s cubic-bezier(0.22,0.61,0.36,1) 0.3s,right 0.25s cubic-bezier(0.22,0.61,0.36,1) 0.3s,transform 0.25s cubic-bezier(0.22,0.61,0.36,1) 0.45s;
+    transform-origin: 0 0;
+    display: block;
+    content: "";
+    background-color: #c3c6c8;
+    position: absolute;
+    top: 0;
+    width: 84px;
+    height: 100%;
+}
