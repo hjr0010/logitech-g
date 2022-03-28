@@ -15,8 +15,6 @@ export class UserInfoComponent implements OnInit {
 
   ngOnInit(): void {
     console.log("Sending request to server");
-    this.getUserInfo();
-    console.log("Registering showUserInfo as a subscriber");
     this.showUserInfo();
   }
 

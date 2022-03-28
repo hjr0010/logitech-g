@@ -33,6 +33,10 @@ import { FarmLayoutComponent } from './Products/Farm/farmlayout.component';
 import { GamepadsLayoutComponent } from './Products/Gamepads/gamepadslayout.component';
 import { ApparelLayoutComponent } from './Products/Apparel/apparellayout.component';
 import { FurnitureLayoutComponent } from './Products/Furniture/furniturelayout.component';
+import { environment } from 'src/environments/environment';
+import { FormsModule } from '@angular/forms';
+import { AngularFireModule } from '@angular/fire/compat';
+import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 
 @NgModule({
   declarations: [
@@ -71,9 +75,10 @@ import { FurnitureLayoutComponent } from './Products/Furniture/furniturelayout.c
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
-    
-
+    HttpClientModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFirestoreModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

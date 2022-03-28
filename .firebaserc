@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "logitechg-dce95"
+  },
+  "targets": {
+    "logitechg-dce95": {
+      "hosting": {
+        "logitech-g": [
+          "logitechg-dce95"
+        ]
+      }
+    }
   }
 }

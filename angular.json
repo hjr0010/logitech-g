@@ -101,6 +101,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "logitech-g:build:production",
+            "firebaseProject": "logitechg-dce95",
+            "firebaseHostingSite": "logitechg-dce95"
+          }
         }
       }
     }
