@@ -18,4 +18,7 @@ export class ProductCardService {
 
     }
 
+    addProductCard(productCard: ProductCardItemModel) {
+        this.db.list<ProductCardItemModel>("productCards").push(productCard);
+    }
 }

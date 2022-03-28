@@ -19,6 +19,7 @@ import { FarmLayoutComponent } from './Products/Farm/farmlayout.component';
 import { GamepadsLayoutComponent } from './Products/Gamepads/gamepadslayout.component';
 import { ApparelLayoutComponent } from './Products/Apparel/apparellayout.component';
 import { FurnitureLayoutComponent } from './Products/Furniture/furniturelayout.component';
+import { AddProductCardComponent } from './Products/add-product-card/add-product-card.component';
 
 const routes:Routes = [
   {path: '', component: HomeLayoutComponent},
@@ -40,6 +41,7 @@ const routes:Routes = [
   {path: 'products/gamepads', component: GamepadsLayoutComponent},
   {path: 'products/apparel', component: ApparelLayoutComponent},
   {path: 'products/gaming-furniture', component: FurnitureLayoutComponent},
+  {path: 'admin', component: AddProductCardComponent},
 ];
 
 @NgModule({

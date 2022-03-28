@@ -1,0 +1,43 @@
+<div class="container center">
+    <div class="row">
+        <div class="col-8">
+            <form #postForm="ngForm" (ngSubmit)="addProductCard(postForm.value)">
+
+                <div class="input-group">
+                    <span class="input-group-text">Title: </span>
+                    <input type="text" class="form-control" ngModel name="title">
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-text">Description: </span>
+                    <input type="text" class="form-control" ngModel name="description">
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-text">Textside: </span>
+                    <input type="text" class="form-control" ngModel name="textside">
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-text">Link: </span>
+                    <input type="text" class="form-control" ngModel name="link">
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-text">Img: </span>
+                    <input type="text" class="form-control" ngModel name="img">
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-text">Button Name: </span>
+                    <input type="text" class="form-control" ngModel name="buttonname">
+                </div>
+            
+                <button class="btn btn-dark" type="submit" [disabled]="!postForm.valid">
+                    Add ProductCard
+                </button>
+
+            </form>
+        </div>
+    </div>
+</div>

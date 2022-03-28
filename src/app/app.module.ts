@@ -37,6 +37,7 @@ import { environment } from 'src/environments/environment';
 import { FormsModule } from '@angular/forms';
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
+import { AddProductCardComponent } from './Products/add-product-card/add-product-card.component';
 
 @NgModule({
   declarations: [
@@ -70,6 +71,7 @@ import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
     ApparelLayoutComponent,
     FurnitureLayoutComponent,
     UserInfoComponent,
+    AddProductCardComponent,
   
   ],
   imports: [
