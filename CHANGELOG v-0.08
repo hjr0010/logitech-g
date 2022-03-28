@@ -1,8 +1,8 @@
-CHANGELOG v-0.07
+CHANGELOG v-0.08
 
 Goal 1) Configured angular fire library by installing firebase through console commands.
 
-Goal 2) Modified service to pull data directly from the database
+Goal 2) Modified service to pull data directly from the database in both productcard.service.ts and card.service.ts 
 
 Goal 3) Rewrote function to pull data so that it uses firebase data and not http pulls.
 
@@ -10,4 +10,4 @@ Goal 4) Deployed web app to online firebase hosting.
 
 To-Do: Nothing, all wanted items completed
 
-Bonus: Rearranged titles on homepage carousel and added routing for all items on product navbar section.
+Bonus: Rearranged titles on homepage carousel and added routing for all items on product navbar section. Also updated two services, for productCard and card
