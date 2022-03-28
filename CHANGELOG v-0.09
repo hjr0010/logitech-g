@@ -1,0 +1,11 @@
+CHANGELOG v-0.09  
+
+Goal 1) Added form to add product card component to database within Products/add-product-card. This form can be accessed through the route /admin
+
+Goal 2) Added method "addProductCard" inside productcard.service.ts to allow data to be sent to firebase.
+
+Goal 3) Used service from Goal 2 inside add-product-card.component.ts with the function "addProductCard" to successfully send data.
+
+To-Do: Nothing currently.
+
+Bonus: Nothing was done for bonus this week.
