@@ -20,6 +20,7 @@ import { GamepadsLayoutComponent } from './Products/Gamepads/gamepadslayout.comp
 import { ApparelLayoutComponent } from './Products/Apparel/apparellayout.component';
 import { FurnitureLayoutComponent } from './Products/Furniture/furniturelayout.component';
 import { AddProductCardComponent } from './Products/add-product-card/add-product-card.component';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 const routes:Routes = [
   {path: '', component: HomeLayoutComponent},
@@ -42,6 +43,8 @@ const routes:Routes = [
   {path: 'products/apparel', component: ApparelLayoutComponent},
   {path: 'products/gaming-furniture', component: FurnitureLayoutComponent},
   {path: 'admin', component: AddProductCardComponent},
+  {path: 'auth', component: AuthenticationComponent},
+  
 ];
 
 @NgModule({

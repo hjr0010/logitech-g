@@ -38,6 +38,7 @@ import { FormsModule } from '@angular/forms';
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { AddProductCardComponent } from './Products/add-product-card/add-product-card.component';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 @NgModule({
   declarations: [
@@ -72,6 +73,7 @@ import { AddProductCardComponent } from './Products/add-product-card/add-product
     FurnitureLayoutComponent,
     UserInfoComponent,
     AddProductCardComponent,
+    AuthenticationComponent,
   
   ],
   imports: [
