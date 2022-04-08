@@ -14,7 +14,7 @@ export class AuthenticationService {
     baseUrl:string = "https://identitytoolkit.googleapis.com/v1/accounts";
     signUpEndpoint:string = "signUp";
     signInEndpoint:string = "signInWithPassword";
-    private user:Subject<User> = new Subject<User>();
+    public user:Subject<User> = new Subject<User>();
 
     public constructor(private http:HttpClient) {
 
