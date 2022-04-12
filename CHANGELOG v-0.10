@@ -1,0 +1,13 @@
+CHANGELOG v-0.10
+
+Goal 1) Enabled firebase authentication on firebase website
+
+Goal 2) Created authentication component called "authentication.component.ts" with html and css files additionally
+
+Goal 3) Created authentication service component called "authentication.service.ts"
+
+Goal 4) Connected authentication component to display "messagebar.component.html" after the user is authenticated. Pictures of this in action were submitted on ecampus.
+
+To-Do: Nothing, website is at completion
+
+Bonus: Nothing done for bonus this week.
